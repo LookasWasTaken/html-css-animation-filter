@@ -70,3 +70,9 @@
     height: 20px;
 }
 
+/* solved */
+
+.ex-1-square:hover{
+    background-color: red;
+    transition: background-color 3s;
+}
