@@ -105,3 +105,8 @@
 .ex-6-img:hover{
     filter: grayscale();
 }
+
+.ex-7-img:hover{
+    transition: filter 3s;
+    filter: blur(10px) sepia();
+}
