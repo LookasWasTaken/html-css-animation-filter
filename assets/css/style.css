@@ -110,3 +110,12 @@
     transition: filter 3s;
     filter: blur(10px) sepia();
 }
+
+.ex-8-img:hover{
+    border-radius: 15rem;
+    filter: blur(1px) sepia();
+    transition-timing-function: linear;
+    transition: filter 5s;
+    transition: border-radius 3s;
+
+}
