@@ -126,3 +126,17 @@
     filter: saturate(1) invert();
     transition: filter 5s border-radius 3s width 4s;
 }
+
+.ex-10-icon{
+    animation: fa_spin 1s linear infinite
+}
+
+@keyframes fa_spin {
+    0% {
+      rotate: 0deg;
+    }
+  
+    100% {
+      rotate: 360deg;
+    }
+}
