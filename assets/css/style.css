@@ -141,3 +141,22 @@
     }
 }
 /* the keyframes name is just for fun */
+
+
+.ex-11-icon:hover{
+    animation: close_full_spin 1.5s ease infinite
+}
+
+@keyframes close_full_spin{
+    0% {
+        rotate: 0deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
