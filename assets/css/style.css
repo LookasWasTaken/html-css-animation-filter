@@ -96,3 +96,12 @@
     transform: scale(1.2);
     transition: transform 2s;
 }
+
+.ex-5-square:active{
+    transform: scale(0.7);
+    transition: transform 2s;
+}
+
+.ex-6-img:hover{
+    filter: grayscale();
+}
