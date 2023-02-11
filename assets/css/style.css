@@ -167,12 +167,15 @@
 @keyframes move_top {
     0% {
         left: 10%;
+        top: -10px;
     }
     50% {
         left: calc(100% - 60px);
+        top: -10px;
     }
     100% {
         left: 10%;
+        top: -10px;
     }
 }
 
@@ -182,11 +185,76 @@
 @keyframes move_bottom {
     0% {
         right: 20%;
+        bottom: -10px;
     }
     50% {
         right: calc(100% - 60px);
+        bottom: -10px;
     }
     100% {
         right: 20%;
+        bottom: -10px;
     }
 }
+
+.ex-13-top-white {
+    animation: move_top_full 3s linear infinite;
+}
+@keyframes move_top_full {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    80% {
+        left: 0;
+        top: 100%;
+    }
+    95% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-bottom-white {
+    animation: move_bottom_full 3s linear infinite;
+}
+@keyframes move_bottom_full {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    25% {
+        right: calc(100% - 40px);
+        bottom: -10px;
+    }
+    40% {
+        right: calc(100% - 40px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -30px;
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+}
+
+/* io ho provato a fargli fare il giro completo allo stesso tempo ma non penso mi riesca più di tanto, non capisco come rapportare il valore percentile del "progresso" del keyframes con i vari spostamenti di blocchi */
