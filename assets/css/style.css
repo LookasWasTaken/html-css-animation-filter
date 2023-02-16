@@ -78,7 +78,7 @@
 }
 
 .ex-2-square:active{
-    transform: scale(1);
+    transform: scale(1.2);
     transition: transform 2s;
 }
 
